@@ -1,0 +1,74 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+.directory
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+# Visual Studio Code
+.vscode/
+
+# JetBrains (e.g., WebStorm, IntelliJ, PyCharm)
+.idea/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+# Bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+
+# Environment files
+*.env
+# Build output
+target/
+build/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Maven
+.mvn/
+
+# Gradle
+.gradle/
+*.jar
+*.war
+*.ear
+# Compiled object files
+*.o
+*.out
+*.a
+*.so
+*.exe
+
+# Debugging
+*.dSYM/
