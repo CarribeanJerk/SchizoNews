@@ -17,7 +17,7 @@ client.once('ready', () => {
     console.log(`Logged in as ${client.user?.tag}!`);
 });
 
-client.on('messageCreate', (message) => {
+client.on('messageCreate', async (message) => {
     if (message.author.bot) return;
    
     const content = message.content.trim();
