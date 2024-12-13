@@ -55,5 +55,4 @@ client.on('messageCreate', async (message) => {
         message.reply('An error occurred while processing your submission.');
     }
 });
-
 client.login(process.env.DISCORD_TOKEN);
